@@ -1,0 +1,72 @@
+:root {
+  --primary-color: #edc531;
+  --secondary-color: #9d46af;
+  --tertiary-color: #222;
+}
+
+@font-face {
+  font-family: 'Morrita';
+  src: url('./assets/fonts/morrita.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'CalRomanCapitals';
+  src: url('./assets/fonts/cal_roman_capitals.ttf') format('truetype');
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.pantalla {
+  height: 100vh;
+  padding: 2rem 3rem;
+  overflow: hidden; 
+}
+
+.btn_primary {
+  margin: 0.5rem 0;
+  width: 100% !important;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-family: 'CalRomanCapitals', sans-serif;
+  font-size: 1rem;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.btn_secondary {
+  margin: 0.5rem 0;
+  width: 100% !important;
+  border: 2px solid var(--secondary-color);
+  padding: 0.75rem 1rem;
+  font-family: 'CalRomanCapitals', sans-serif;
+  font-size: 1rem;
+  color: var(--secondary-color);
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.root-container {
+  position: relative;
+}
+
+.root-container-img {
+  height: 256px;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -4rem;
+}

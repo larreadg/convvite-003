@@ -1,0 +1,128 @@
+.portada {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portada_img01 {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: -1rem;
+    right: -3rem;
+    z-index: -1;
+}
+
+.portada_img02 {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: -2rem;
+    left: -2.5rem;
+    z-index: -1;
+}
+
+.portada_img02_bottom {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    bottom: -2rem;
+    right: -2.5rem;
+    transform: rotateX(180deg) rotateY(180deg);
+    z-index: -1;
+}
+
+.portada_text_msg {
+    font-family: 'CalRomanCapitals', sans-serif;
+    font-size: 1.15rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.portada_text_15 {
+    font-family: 'CalRomanCapitals', sans-serif;
+    font-size: 1.75rem;
+    text-align: center;
+    margin: 1rem 0;
+    color: var(--primary-color);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.portada_text_15 span {
+    color: var(--secondary-color);
+}
+
+.portada_text_15_name_1 {
+    font-family: 'Morrita', cursive;
+    font-size: 5rem;
+    text-align: left;
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.portada_text_15_name_2 {
+    font-family: 'Morrita', cursive;
+    font-size: 5rem;
+    text-align: right;
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    width: 100%;
+    margin-top: -2rem;
+    margin-bottom: 1.5rem;
+}
+
+.portada_bf1 {
+    width: 24px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    z-index: -1;
+}
+
+.portada_bf2 {
+    width: 32px;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    transform: rotateY(180deg);
+    z-index: -1;
+}
+
+.portada_bf3 {
+    width: 32px;
+    height: auto;
+    position: absolute;
+    bottom: 50%;
+    right: 20px;
+    z-index: -1;
+}
+
+.portada_fecha {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.portada_fecha .dia, .portada_fecha .fecha, .portada_fecha .mes  {
+    font-family: 'CalRomanCapitals', sans-serif;
+    font-size: 1.75rem;
+}
+
+.portada_fecha .dia, .portada_fecha .mes {
+    padding: 0.5rem;
+    border-top: 1px solid var(--tertiary-color);
+    border-bottom: 1px solid var(--tertiary-color);
+}
+
+.portada_fecha .fecha {
+    font-size: 2.25rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+}

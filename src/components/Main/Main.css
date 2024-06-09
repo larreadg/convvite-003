@@ -1,0 +1,142 @@
+.main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_img02 {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    bottom: -2rem;
+    left: -2.5rem;
+    transform:  rotateX(180deg);
+    z-index: -1;
+}
+
+.main_img02_bottom {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: -2rem;
+    right: -2.5rem;
+    transform:  rotateY(180deg);
+    z-index: -1;
+}
+
+
+.main_img04 {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    bottom: -2rem;
+    right: -3rem;
+    z-index: -1;
+}
+
+.main_text_msg {
+    font-family: 'CalRomanCapitals', sans-serif;
+    font-size: 1.15rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.main_text_group {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.main_text_group_fiesta_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.main_text_group_fiesta {
+    font-family: 'Morrita', cursive;
+    font-size: 3.5rem;
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: center;
+}
+
+.main_text_group_bf1 {
+    width: 32px;
+    height: auto;
+}
+
+.main_text_group_hora {
+    color: var(--primary-color);
+    font-family: 'CalRomanCapitals', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main_lugar {
+    color: var(--tertiary-color);
+    font-family: 'CalRomanCapitals', sans-serif;
+    font-size: 1.75rem;
+}
+
+.main_wrap_fiesta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.main_invitado {
+    margin: 0 0 1rem 0;
+    text-align: center;
+    font-family: 'CalRomanCapitals', sans-serif;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.main_tenida {
+    margin: 1rem 0 0 0;
+    text-align: left;
+    font-family: 'Morrita', cursive;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    width: 100%;
+}
+
+.main_tenida_text {
+    color: var(--tertiary-color);
+    font-family: 'CalRomanCapitals', sans-serif;
+    font-size: 1.75rem;
+    width: 100%;
+    text-align: left;
+}
+
+.main_asistencia {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.main_asistencia_text {
+    color: var(--tertiary-color);
+    font-family: 'CalRomanCapitals', sans-serif;
+    font-size: 1.75rem;
+    width: 100%;
+    text-align: center;
+}
+
+.main_asistencia_bf1, .main_asistencia_bf1_right {
+    width: 32px;
+    height: auto;
+}
+
+.main_asistencia_bf1 {
+    transform:  rotateY(180deg);
+}
