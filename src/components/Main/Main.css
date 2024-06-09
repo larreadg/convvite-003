@@ -28,7 +28,7 @@
 
 
 .main_img04 {
-    width: 250px;
+    width: 200px;
     height: auto;
     position: absolute;
     bottom: -2rem;
@@ -93,6 +93,7 @@
 }
 
 .main_invitado {
+    font-size: 2rem; /* Tamaño del texto */
     margin: 0 0 1rem 0;
     text-align: center;
     font-family: 'CalRomanCapitals', sans-serif;
@@ -139,4 +140,13 @@
 
 .main_asistencia_bf1 {
     transform:  rotateY(180deg);
+}
+
+.main_text_valido {
+    margin: 0.5rem 0;
+    font-family: 'CalRomanCapitals', sans-serif;
+    font-size: 1.15rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
 }

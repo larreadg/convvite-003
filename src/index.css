@@ -25,9 +25,16 @@
 }
 
 .pantalla {
-  height: 100vh;
   padding: 2rem 3rem;
   overflow: hidden; 
+}
+
+.pantalla:first-of-type {
+  height: 100svh;
+}
+
+.pantalla:not(:first-of-type) {
+  height: 100lvh;
 }
 
 .btn_primary {
@@ -63,10 +70,10 @@
 }
 
 .root-container-img {
-  height: 256px;
+  height: 200px;
   width: auto;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: -4rem;
+  left: -3rem;
 }

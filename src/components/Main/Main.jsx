@@ -86,6 +86,12 @@ function Main({ jovenes, adultos, invitado }) {
             {confirmacion === 0 && (
                 <>
                     <p className='main_text_msg mt-1'>FAVOR CONFIRMAR ASISTENCIA</p>
+                    {jovenes > 0 && (
+                        <p className='main_text_valido'>{jovenes} jóven(es)</p>
+                    )}
+                    {adultos > 0 && (
+                        <p className='main_text_valido'>{adultos} adulto(s)</p>
+                    )}
                     <button onClick={() => handleAsistenciaClick('SI')} className='btn_primary'>SÍ, ASISTIRÉ</button>
                     <button onClick={() => handleAsistenciaClick('NO')} className='btn_secondary'>NO PODRÉ ASISTIR</button>
                 </>

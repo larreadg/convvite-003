@@ -14,7 +14,7 @@
 }
 
 .loader {
-    border: 0.5rem solid var(--tertiary-color);
+    border: 0.5rem solid white;
     /* Light grey */
     border-top: 0.5rem solid var(--secondary-color);
     /* Blue */
