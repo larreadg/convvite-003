@@ -81,7 +81,7 @@ function Main({ jovenes, adultos, invitado }) {
                 </section>
                 <p className='main_text_group_hora'>21:00 HS</p>
             </section>
-            <p className='main_lugar'>DON BRUNO ROGA</p>
+            <p className='main_lugar'>HOTEL CORONA SUITES</p>
             <button className='btn_primary' onClick={() => redirectToGoogleMaps('https://goo.gl/maps/NeHccPUTr2879d2w9')}>UBICACIÓN</button>
             {confirmacion === 0 && (
                 <>

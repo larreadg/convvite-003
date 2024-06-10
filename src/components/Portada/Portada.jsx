@@ -17,13 +17,13 @@ function Portada() {
 
             <p className='portada_text_msg'>QUINCE AÑOS ATRÁS <br /> MIS PADRES SE COLMARON DE ALEGRÍA <br /> HOY DOY GRACIAS A DIOS POR REGALARME LA VIDA Y PODER CELEBRAR CON MIS AMIGOS Y FAMILIARES MI GRAN NOCHE DE FANTASÍA</p>
             <p className='portada_text_15'>MIS <span>15</span> AÑOS</p>
-            <p className='portada_text_15_name_1'>Violeta</p>
-            <p className='portada_text_15_name_2'>Arami</p>
+            <p className='portada_text_15_name_1'>Lara</p>
+            <p className='portada_text_15_name_2'>Lujan</p>
             
             <section className='portada_fecha'>
                 <p className='dia'>SÁBADO</p>
-                <p className='fecha'>02</p>
-                <p className='mes'>MARZO</p>
+                <p className='fecha'>27</p>
+                <p className='mes'>JULIO</p>
             </section>
         </section>
     )
