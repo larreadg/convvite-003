@@ -79,7 +79,7 @@ function Main({ jovenes, adultos, invitado }) {
                     <p className='main_text_group_fiesta'>Fiesta</p>
                     <img src={bf1} alt='bf1' className='main_text_group_bf1'/>
                 </section>
-                <p className='main_text_group_hora'>21:00 HS</p>
+                <p className='main_text_group_hora'>20:00 HS</p>
             </section>
             <p className='main_lugar'>HOTEL CORONA SUITES</p>
             <button className='btn_primary' onClick={() => redirectToGoogleMaps('https://goo.gl/maps/NeHccPUTr2879d2w9')}>UBICACIÓN</button>

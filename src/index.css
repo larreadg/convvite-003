@@ -5,13 +5,13 @@
 }
 
 @font-face {
-  font-family: 'Morrita';
-  src: url('./assets/fonts/morrita.otf') format('opentype');
+  font-family: 'CalRomanCapitals';
+  src: url('./assets/fonts/cal_roman_capitals.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'CalRomanCapitals';
-  src: url('./assets/fonts/cal_roman_capitals.ttf') format('truetype');
+  font-family: 'HowellScript';
+  src: url('./assets/fonts/howell_script.ttf') format('truetype');
 }
 
 @keyframes spin {

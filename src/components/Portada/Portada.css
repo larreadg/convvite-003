@@ -56,23 +56,21 @@
 }
 
 .portada_text_15_name_1 {
-    font-family: 'Morrita', cursive;
+    font-family: 'HowellScript', cursive;
     font-size: 6rem;
     text-align: left;
     color: var(--primary-color);
     width: 100%;
     margin: 2rem 0;
-    letter-spacing: 3px;
 }
 
 .portada_text_15_name_2 {
-    font-family: 'Morrita', cursive;
+    font-family: 'HowellScript', cursive;
     font-size: 6rem;
     text-align: right;
     color: var(--primary-color);
-    letter-spacing: 3px;
     width: 100%;
-    margin-top: -6rem;
+    margin-top: -4rem;
     margin-bottom: 2rem;
 }
 
