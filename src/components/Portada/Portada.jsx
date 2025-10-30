@@ -17,8 +17,8 @@ function Portada() {
 
             <p className='portada_text_msg'>QUINCE AÑOS ATRÁS <br /> MIS PADRES SE COLMARON DE ALEGRÍA <br /> HOY DOY GRACIAS A DIOS POR REGALARME LA VIDA Y PODER CELEBRAR CON MIS AMIGOS Y FAMILIARES MI GRAN NOCHE DE FANTASÍA</p>
             <p className='portada_text_15'>MIS <span>15</span> AÑOS</p>
-            <p className='portada_text_15_name_1'>Lara</p>
-            <p className='portada_text_15_name_2'>Lujan</p>
+            <p className='portada_text_15_name_1'>Araceli</p>
+            <p className='portada_text_15_name_2'>Garcete</p>
             
             <section className='portada_fecha'>
                 <p className='dia'>SÁBADO</p>
